@@ -4,7 +4,25 @@ import java.util.Scanner;
 
 public class Accommodation extends Place {
 
-	int numberOfRooms;
+	private int numberOfRooms;
+
+	public int getNumberOfRooms() {
+		return numberOfRooms;
+	}
+
+	public void setNumberOfRooms(int numberOfRooms) {
+		this.numberOfRooms = numberOfRooms;
+	}
+
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+
+	 private String phoneNumber;
 
 	public Accommodation(int numberOfRooms) {
 		this.numberOfRooms = numberOfRooms;

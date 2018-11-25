@@ -5,33 +5,33 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_new_tour"
+            android:icon="@drawable/icon_bus"
+            android:title="Add Tour" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_view_tours"
+            android:icon="@drawable/met_hand"
+            android:title="View Tours" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_add_gig"
+            android:icon="@drawable/mic_icon"
+            android:title="Add Gig" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_view_agenda"
+            android:icon="@drawable/icon_calendar"
+            android:title="View Agenda" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Road Case">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/icon_marteau"
+                android:title="Settings" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Contact Us" />
         </menu>
     </item>
 

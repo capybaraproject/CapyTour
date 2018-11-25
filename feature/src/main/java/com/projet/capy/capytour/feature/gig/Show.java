@@ -2,6 +2,9 @@ package com.projet.capy.capytour.feature.gig;
 
 
 
+import android.os.Build;
+import android.support.annotation.RequiresApi;
+
 import com.projet.capy.capytour.feature.tools.Tools;
 
 import java.time.LocalDateTime;
@@ -49,6 +52,7 @@ public class Show implements Tools {
         this.curfew = curfew;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     public LocalDateTime doUserInputToDate(){
         Scanner scan = new Scanner(System.in);
 
@@ -91,6 +95,7 @@ public class Show implements Tools {
     }
 
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     public void createNewUserObject(Show show) {
         //toDo change the following code for a good deployment  on Android (by get EditView).
 
